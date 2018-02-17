@@ -1,0 +1,44 @@
+/* style for visualization cards (in the left palette) */
+.viz-card {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(10, 110, 0, 0.2);
+  transition: opacity 0.4s ease-in-out;
+  cursor: move;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  border-radius: 10px;
+}
+
+/* style for viz-card being dragged, inherits from viz-card */
+.gu-mirror {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+
+/* style of viz-card in the landing spot (target) while it's in transit */
+.gu-transit {
+  display: none;
+}
+
+/* style for destination cards (panels) in the main area with no viz inside */
+.dash-card {
+  margin: 10px;
+  height: 380px;
+  border-style: dashed;
+  border-width: 2px;
+}
+
+/* style for destination cards (panels) in the main area with a viz inside */
+.dash-card.occupied {
+  margin: 10px;
+  height: 380px;
+  border-style: solid;
+}
+
+/* style for dash-cards (panels) when a viz-card is dragged over them */
+.dash-card.ex-over {
+  border-color: rgb(10, 110, 0);
+}

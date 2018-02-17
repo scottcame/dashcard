@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.css' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href='css/dashcard.css' rel='stylesheet' type='text/css' />
+  </head>
+
+  <body>
+    <div class='container-fluid'>
+      <div class='row'>
+        <div id='viz-cards' class='col-3'></div>
+        <div id='destination-cards' class='col-9'>
+          <div class="row">
+            <div class="col-4">
+              <div class='card dash-card' id='viz-card-1'>
+                <div class='card-body'>
+                  <div id='viz-dest-1'></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class='card dash-card' id='viz-card-2'>
+                <div class='card-body'>
+                  <div id='viz-dest-2'></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class='card dash-card' id='viz-card-3'>
+                <div class='card-body'>
+                  <div id='viz-dest-3'></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div class='card dash-card' id='viz-card-4'>
+                <div class='card-body'>
+                  <div id='viz-dest-4'></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class='card dash-card' id='viz-card-5'>
+                <div class='card-body'>
+                  <div id='viz-dest-5'></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class='card dash-card' id='viz-card-6'>
+                <div class='card-body'>
+                  <div id='viz-dest-6'></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js'></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vega/3.0.8/vega.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vega-lite/2.0.4/vega-lite.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vega-embed/3.0.0-rc7/vega-embed.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+
+    <script src='js/mondrian-rest-interface.js'></script>
+    <script src='js/dashcard.js'></script>
+    <script src='js/viz.js'></script>
+    <script src='js/viz-config.js'></script>
+
+  </body>
+
+</html>
