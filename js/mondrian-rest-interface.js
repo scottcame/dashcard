@@ -6,7 +6,7 @@ getDataFor = function(query, callbackFunction) {
 	return getDataFor_ajax(query, callbackFunction);
 }
 
-CONNECTION_NAME = "FoodMart";
+CONNECTION_NAME = "foodmart";
 
 getDataFor_ajax = function(query, callbackFunction) {
 
