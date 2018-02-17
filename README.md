@@ -1,7 +1,8 @@
 ### Mondrian REST API Dynamic Dashboard Demonstration
 
 This repository contains a simple web page that demonstrates how to set up a dynamic dashboarding interface using
-[Vega-Lite](https://vega.github.io/vega-lite/) and the Open Justice Broker Consortium's [Mondrian REST API](https://github.com/ojbc/mondrian-rest).
+[Vega-Lite](https://vega.github.io/vega-lite/) and the Open Justice Broker Consortium's [Mondrian REST API](https://github.com/ojbc/mondrian-rest).  The demo uses the "Food Mart" sample dataset/schema
+that ships with the Mondrian library (and is available by default in the mondrian-rest API).
 
 #### Screencast
 
