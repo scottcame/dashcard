@@ -20,7 +20,7 @@ docker run -d --name dashcard -p 58081:80 scottcame/dashcard
 
 (Replacing the port with whatever port you wish.) Then the dashboard is available at: http://localhost:58081/dashcard/demo.html.
 
-To run without Docker, just deploy the contents of this repo into a running Tomcat instance; this will run the demo in "demo mode" that does not require a connection to a mondrian-rest API instance (it
+To run without Docker, just download the contents of this repo and open demo.html in your browser; this will run the demo in "demo mode" that does not require a connection to a mondrian-rest API instance (it
   just hardcodes the query responses.)  To connect to a mondrian-rest API instance, you'd need to grab the [mondrian-rest web archive file](http://central.maven.org/maven2/org/ojbc/mondrian-rest/1.2.0/mondrian-rest-1.2.0.war) and deploy it into a
 Tomcat instance, then copy the contents of this repo into a directory under {tomcat-home}/webapps.  Manually edit the `js/viz-config.js` file to set `DEMO_MODE=false`.
 
